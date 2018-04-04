@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Titillium Web', sans-serif;
+  }
+  header, section, nav, article, div, h1, h2, h3, h4, img{
+      display: block;
+      margin: 0;
+      padding: 0;
+  }
+  a, button {
+      text-decoration: none;
+      cursor: pointer;
+  }
+  a{
+      color: #2b2b2b;
+  }
+  a, a:hover, a:focus, button:hover, button:focus {
+      outline: 0 none !important;
+      text-decoration: none;
+  }
+  /*nav*/
+nav #navbar-collapse{
+    background-color: #414c4a
+}
+nav.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+nav.navbar-default .navbar-nav>li>a, nav.navbar-default .navbar-nav>li>a:hover, nav.navbar-default .navbar-brand{
+    color: #fff;
+}
+nav .navbar-collapse .btn{
+    border-color: #29ab11;
+    background-color: #414c4a;
+    color: #29ab11;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: block;
+}
+.navbar-collapse .navbar-form .input-group input.form-control{
+    border-radius: 5px;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+/**service*/
+#services{
+    margin-top: 20px;
+} 
+#services article img{
+    width: 35%;
+    display: block;
+    margin: 20px auto;
+}
+#services div.detail{
+    text-align: center;
+}
+#services div.detail p {
+    line-height: 1.5em;
+    color: #888484;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#services div.detail button {
+    color: #fff;
+    padding: 10px;
+    background-color: #888686;
+}
+/*gallery*/
+#gallery{
+    margin-top: 60px;
+}
+#gallery article{
+    margin-bottom: 70px;
+}
+#gallery .info{
+    text-align: center;
+    margin-top: 70px;
+}
+#gallery .info p{
+    padding: 0 76px;
+    margin: 10 auto;
+    width: 80%;
+    font-size: 20px;
+}
+#gallery article img{
+    width: 100%;
+   
+}
+#gallery .line{
+    width: 80%;
+    
+    margin: 0 auto;
+    border: 1px solid #414c4a;
+    margin-bottom: 30px;
+}
+footer{
+    padding-bottom: 10px;
+}
+footer a{
+    color:blue;
+}
+footer a.pull-right{
+    background-color: brown;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*mobile display*/
+@media screen and (max-width: 800px){
+    nav .navbar-header a.navbar-brand{
+       color: darkslategrey
+    }
+    #gallery .info p {
+        padding: 0 20px;
+        margin: 10 auto;
+        width: 100%;
+    }
+}
